@@ -1,0 +1,56 @@
+{
+    "name": "JSON-Map",
+    "serve": [
+        {
+            "name": "get",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "defaultValue",
+                    "type": "*",
+                    "required": false,
+                    "description": "",
+                    "title": ""
+                }
+            ],
+            "title": "",
+            "description": "",
+            "returntype": "object"
+        },
+        {
+            "name": "set",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "title": "",
+                    "type": "*",
+                    "required": true,
+                    "description": ""
+                }
+            ],
+            "title": "",
+            "description": "",
+            "returntype": "object"
+        },
+        {
+            "name": "delete",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                }
+            ],
+            "title": "",
+            "description": "",
+            "returntype": "object"
+        }
+    ],
+    "dependencies": []
+}

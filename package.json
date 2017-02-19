@@ -1,0 +1,7 @@
+{
+	"name": "mscp-jsonmap",
+	"version": "1.0.0",
+	"main" : "main.js",
+	"dependencies" : {
+  }
+}
