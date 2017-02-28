@@ -7,7 +7,7 @@ const dataDir = './data'
 const secret = '43hu658324hyt82ghyHFGERuy38f';
 
 class JSONMap{
-  async init(){
+  async initFirst(){
     await new Promise(r => fs.mkdir(dataDir, (err) => r()));
   }
 
